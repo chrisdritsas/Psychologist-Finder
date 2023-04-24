@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Primary.Fragments.DoctorProfileFragment">
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutDoctorProf1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="80dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/UserPhotoDoctorProf"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="2"
+            app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+        <TextView
+            android:id="@+id/txtViewSessionNameSurnameDoctorProf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="8"
+            android:gravity="center"
+            android:text="Name Surname"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutDoctorProf0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LinearLayoutDoctorProf1"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtViewViewsDoctorProf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/views_txtView"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtViewViewValuesDoctorProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="10"
+            android:gravity="center"
+
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutDoctorProf2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LinearLayoutDoctorProf0"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtViewAddressDoctorProf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/address_txtView"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtViewAddressValueDoctorProf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:text="Address + AddressCode Value"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutDoctorProf3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LinearLayoutDoctorProf2"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtViewContactDoctorProf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/contact_txtView"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtViewContactValueDoctorProf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:text="Phone , Mobile Value"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutDoctorProf4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LinearLayoutDoctorProf3"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtViewWorkHoursDoctorProf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/work_hours_txtView"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtViewWorkHoursValueDoctorProf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:text="WorkHours Value"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutDoctorProf5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LinearLayoutDoctorProf4"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtViewMeetingDoctorProf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/meeting_txtView"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtViewMeetingValueDoctorProf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:text="MeetingPrice Value €"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutDoctorProf6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LinearLayoutDoctorProf5"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtViewOnlineMeetingDoctorProf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/online_meeting_txtView"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtViewOnlineMeetingValueDoctorProf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:text="OnlineMeetingPrice Value €"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/txtViewSBiographyDoctorProf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LinearLayoutDoctorProf6"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:gravity="center"
+        android:text="@string/biography_txtView"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtViewBiographyValueDoctorProf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtViewSBiographyDoctorProf"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:gravity="center"
+        android:text="Biography Biography Biography Biography Biography Biography Biography Biography Biography Biography Biography Biography Biography Biography Biography Biography "
+        android:textSize="15sp" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapViewDoctorProf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayoutDoctorProf"
+        android:layout_below="@+id/txtViewBiographyValueDoctorProf" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutDoctorProf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMeetingDoctorProf"
+            style="@style/AppTheme.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="1dp"
+            android:layout_weight="1"
+            android:text="@string/new_meeting_btn" />
+
+        <Button
+            android:id="@+id/btnMessageDoctorProf"
+            style="@style/AppTheme.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:text="@string/message_btn" />
+    </LinearLayout>
+
+
+</RelativeLayout>

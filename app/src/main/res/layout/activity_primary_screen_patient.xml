@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Primary.Activities.PrimaryScreenPatient">
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutPatientPS1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtViewSessionNameSurnamePatientPS"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:text="Name Surname"
+            android:textSize="15sp" />
+
+        <ImageButton
+            android:id="@+id/UserProfileBtnPatientPS"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="3"
+            android:background="@color/purple_500"
+            app:srcCompat="@android:drawable/ic_menu_gallery" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutPatientPS2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LinearLayoutPatientPS1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDoctorsPatientPS"
+            style="@style/AppTheme.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:text="@string/doctors_btn" />
+
+        <Button
+            android:id="@+id/btnCalendarPatientPS"
+            style="@style/AppTheme.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="1dp"
+            android:layout_weight="1"
+            android:text="@string/calendar_btn" />
+
+        <Button
+            android:id="@+id/btnMessagesPatientPS"
+            style="@style/AppTheme.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:text="@string/messages_btn" />
+    </LinearLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerViewPatientPS"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/LinearLayoutPatientPS2"
+        tools:layout="@layout/fragment_doctor_list" />
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Present</string>
+    <!-- Strings related to login -->
+    <string name="email_input">Email:</string>
+    <string name="pass_input">Password:</string>
+    <string name="pass_confirm_input">Password Confirm:</string>
+    <string name="sign_up_btn">Sign Up</string>
+    <string name="log_in_btn">Log In</string>
+    <string name="next_btn">Next</string>
+    <string name="isDoctor_check_box">Are you a doctor?</string>
+    <string name="finish_btn">Finish</string>
+
+    <string name="login_txtView">Fill your log in information.</string>
+    <string name="user_info_txtView">Fill your personal information.</string>
+    <string name="office_info_txtView">Fill your office information.</string>
+
+    <!-- Strings related to User Data-->
+    <string name="name_input">Name:</string>
+    <string name="surname_input">Surname:</string>
+    <string name="address_input">Address:</string>
+    <string name="address_code_input">Address Code:</string>
+    <string name="city_input">City:</string>
+    <string name="telephone_input">Telephone:</string>
+
+    <!-- Strings related to Office Data-->
+    <string name="mobile_input">Mobile:</string>
+    <string name="biography_input">Biography:</string>
+    <string name="work_hours_input">Work Hours:</string>
+    <string name="online_price_input">Online Price:</string>
+    <string name="meeting_price_input">Meeting Price:</string>
+
+    <!-- Strings related to Primary Screen Doctor-->
+    <string name="preview_profile_btn">Preview Profile</string>
+    <string name="calendar_btn">Calendar</string>
+    <string name="messages_btn">Messages</string>
+    <string name="doctors_btn">Doctors</string>
+
+    <!-- Strings related to Meeting Update -->
+    <string name="state">State:</string>
+    <string name="patient_name_txtView">Meeting with</string>
+    <string name="new_meeting_with_txtView">New Meeting with</string>
+    <string name="date_time_input">Date and Time:</string>
+    <string name="patient_desc_input">Patient Description:</string>
+    <string name="doctor_desc_input">Doctor Description:</string>
+    <string name="state_pending">State: Pending</string>
+
+    <!-- Strings related to Chat Fragment -->
+    <string name="receiver_chat_name_txtView">Chatting with</string>
+    <string name="send_btn">Send</string>
+
+    <!-- Strings related to Edit Profile -->
+    <string name="change_email_btn">Change Email</string>
+    <string name="change_pass_btn">Change Password</string>
+    <string name="edit_userData_btn">Edit Info</string>
+    <string name="edit_office_btn">Edit Office</string>
+    <string name="update_btn">Update</string>
+    <string name="create_meeting">Create Meeting</string>
+    <string name="edit_profile_image">Set Profile Image</string>
+
+    <string name="email_edit_txtView">Change your email.</string>
+    <string name="new_email_input">New Email:</string>
+    <string name="pass_edit_txtView">Change your password.</string>
+    <string name="new_pass_input">New Password:</string>
+
+    <string name="userData_edit_txtView">Change your personal information.</string>
+    <string name="new_name_input">New Name:</string>
+    <string name="new_surname_input">New Surname:</string>
+    <string name="new_address_input">New Address:</string>
+    <string name="new_address_code_input">New Address Code:</string>
+    <string name="new_city_input">New City:</string>
+    <string name="new_telephone_input">New Telephone:</string>
+
+    <string name="Office_edit_txtView">Change your office information.</string>
+    <string name="new_mobile_input">New Mobile:</string>
+    <string name="new_biography_input">New Biography:</string>
+    <string name="new_work_hours_input">New Work Hours:</string>
+    <string name="new_online_price_input">New Online Price:</string>
+    <string name="new_meeting_price_input">New Meeting Price:</string>
+
+    <!-- Strings related to doctor profile-->
+    <string name="views_txtView">Views:</string>
+    <string name="address_txtView">Address:</string>
+    <string name="contact_txtView">Contact:</string>
+    <string name="work_hours_txtView">Schedule:</string>
+    <string name="meeting_txtView">Physical Meeting:</string>
+    <string name="online_meeting_txtView">Online Meeting:</string>
+    <string name="biography_txtView">Biography:</string>
+
+    <string name="new_meeting_btn">New Meeting</string>
+    <string name="message_btn">Message</string>
+
+    <!-- Strings related to doctor list -->
+    <string name="doctor_views_txtView">Views:</string>
+    <string name="doctor_online_price">Online Meeting:</string>
+    <string name="doctor_meeting_price">Physical Meeting:</string>
+
+    <!-- Strings related to logout dialogue box -->
+    <string name="logout_title">Logout</string>
+    <string name="logout_msg">Are you sure you want to logout?</string>
+
+    <!-- Strings related to notifications -->
+    <string name="channel_name">Present Notifications</string>
+    <string name="channel_description">General notifications for meetings and chat messages.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

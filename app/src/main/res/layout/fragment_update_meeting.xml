@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Primary.Fragments.UpdateMeetingFragment">
+
+    <TextView
+        android:id="@+id/patientNameTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:gravity="center"
+        android:minHeight="60dp"
+        android:text="@string/patient_name_txtView"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Spinner
+        android:id="@+id/stateSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/dateTimeEditTxt"
+        android:layout_centerInParent="true"
+        android:inputType="none"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/dateTimeEditTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/stateEditTxt"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="@string/date_time_input"
+        android:importantForAutofill="no"
+        android:inputType="datetime"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/stateEditTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/patientDescEditTxt"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="@string/state"
+        android:importantForAutofill="no"
+        android:inputType="none"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/patientDescEditTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="@string/patient_desc_input"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/doctorDescEditTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/patientDescEditTxt"
+        android:ems="10"
+        android:hint="@string/doctor_desc_input"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp" />
+
+
+    <Button
+        android:id="@+id/btnUpdateMeeting"
+        style="@style/AppTheme.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:text="@string/update_btn" />
+
+</RelativeLayout>

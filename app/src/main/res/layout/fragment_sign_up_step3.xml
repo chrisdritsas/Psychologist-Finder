@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/test1234"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.LoginSignup.Fragments.SignUpStep3Fragment">
+
+
+    <TextView
+        android:id="@+id/infoTxtViewSignUp3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:gravity="center"
+        android:minHeight="60dp"
+        android:text="@string/office_info_txtView"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+
+        <EditText
+            android:id="@+id/editTxtAddressSignUp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/infoTxtViewSignUp3"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/address_input"
+            android:importantForAutofill="no"
+            android:inputType="textPostalAddress"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTxtAddressCodeSignUp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTxtAddressSignUp3"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="@string/address_code_input"
+            android:importantForAutofill="no"
+            android:inputType="textPostalAddress"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTxtPhoneSignUp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTxtAddressCodeSignUp3"
+            android:layout_centerInParent="true"
+            android:ems="10"
+            android:hint="@string/telephone_input"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTxtMobileSignUp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTxtPhoneSignUp3"
+            android:layout_centerInParent="true"
+            android:ems="10"
+            android:hint="@string/mobile_input"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:minHeight="48dp" />
+
+
+        <EditText
+            android:id="@+id/editTxtWorkHoursSignUp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTxtMobileSignUp3"
+            android:layout_centerInParent="true"
+            android:ems="10"
+            android:hint="@string/work_hours_input"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTxtOnlinePriceSignUp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTxtWorkHoursSignUp3"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="@string/online_price_input"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTxtMeetingPriceSignUp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTxtOnlinePriceSignUp3"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="@string/meeting_price_input"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTxtBiographySignUp3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTxtMeetingPriceSignUp3"
+            android:layout_centerInParent="true"
+            android:ems="10"
+            android:hint="@string/biography_input"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine"
+            android:minHeight="48dp" />
+
+
+
+    <Button
+        android:id="@+id/btnNextSignUp3"
+        style="@style/AppTheme.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:text="@string/finish_btn" />
+
+</RelativeLayout>
